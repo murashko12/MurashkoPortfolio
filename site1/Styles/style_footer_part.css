@@ -1,0 +1,151 @@
+.footerPartContent {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    background: #112D57;
+    justify-content: center;
+    align-items: center;
+    padding: 62px 0px;
+}
+
+.footerPartBlockContent {
+    display: flex;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footerListContent {
+    width: 317px;
+    height: 210px;
+
+}
+
+.footerList {
+    display: flex;
+    width: 317px;
+    height: 90%;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+
+.mapPosition {
+    max-width: 100%;
+    height: 247px;
+    background: url("images/map.png");
+    border-radius: 22px;
+    border: 0;
+}
+
+.footerList_component {
+    width: 317px;
+    height: 100%;
+}
+
+.footerList_componentLinkBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.textPartOne {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 10px;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.footerList_componentLink {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.linkLocation {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.mapPositionLogo {
+    height: 46px;
+}
+.phoneLogo {
+    height: 35px;
+    margin-left: 6px;
+}
+
+.netWorks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 6px;
+    width: 170px;
+    height: auto;
+}
+
+.adress {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.phoneNamber {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+/* ================================================ media queries of main part Footer ================================================ */
+
+@media (max-width: 1070px) {
+    .footerPartBlockContent {
+        width: 100%;
+        flex-direction: column;
+    }
+    .footerList {
+        width: 100%;
+    }
+    .mapPosition {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 345px) {
+    .footerListContent {
+        width: 100%;
+    }
+    .footerList_component {
+        width: 100%;
+    }
+}
