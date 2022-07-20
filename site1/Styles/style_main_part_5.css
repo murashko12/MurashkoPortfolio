@@ -1,0 +1,233 @@
+.bodyBlockMain5 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.titleContentBlock5 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titleBlock5 {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    margin: 0;
+}
+
+.textContentBlock5 {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.textBlock5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+    margin: 0;
+}
+
+.columnsContentBlock5 {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.columnsBlock5 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 250px;
+    height: 900px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.columnsHeadBlock5 {
+    width: 210px;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+}
+
+.columnsContentTitleBlock5 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.columnsTitleBlock5 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin: 0;
+}
+
+.columnsTextBlock5 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
+
+.blockImg5 {
+    width: 259px;
+    height: 448px;
+    margin-top: 30px;
+}
+
+.priceContentBlock5__1 {
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    padding: 0px;
+    width: 119px;
+    height: 61px;
+    margin-top: 30px;
+}
+
+.priceContentBlock5__2, .priceContentBlock5__3 {
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    padding: 0px;
+    width: 150px;
+    height: 61px;
+    margin-top: 30px;
+}
+
+.digitPriceContentBlock5__1 {
+    display: block;
+    width: 36px;
+    height: 61px;
+    flex-direction: row;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.digitPriceContentBlock5__2 {
+    display: block;
+    width: 58px;
+    height: 61px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.digitPriceContentBlock5__3 {
+    display: block;
+    width: 65px;
+    height: 61px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+
+.digitPriceBlock5__1, .digitPriceBlock5__2, .digitPriceBlock5__3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+    color: #30D7BA;
+    margin: 0;
+}
+
+.dolorContent {
+    display: block;
+}
+
+.dolor  {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    color: #30D7BA;
+    margin-left: 10px;
+}
+
+.perMonth {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
+
+.priceDescription {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 255px;
+    height: 235px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.priceDescriptionText {
+    color: #5C5C5C;
+}
+
+.buttonBlock5 {
+    
+    /* margin-top: 30px; */
+    width: 251px;
+    height: 52px;
+    background: #03D6F3;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+}
+
+/* ================================================ media queries of main part 5 ================================================ */
+
+@media (max-width: 1225px){
+
+    .columnsHeadBlock5 {
+        width: 70%;    
+    }
+
+    .columnsContentBlock5 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 300px){
+    .columnsBlock5 {
+        width: 100%;
+        padding: 0;
+    }
+}

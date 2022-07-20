@@ -1,0 +1,105 @@
+.contentBlockSubscribe {
+    display: flex;
+    width: 100%;
+    height: 366px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentBlockSubscribeDescription {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+
+.contentBlockSubscribe__Title {
+    display: flex;
+    max-width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockSubscribe__Title {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.blockSubscribe__Text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.inputButtonSubscribe {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+
+.inputSubscribe {
+    box-sizing: border-box;
+    height: 46px;    
+    width: 100%;
+    background: #EFEFEF;
+    border: 1px solid #D0D0D0;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding-left: 8px;
+    color: #5C5C5C;
+}
+
+.buttonSubscribe {
+    width: 250px;
+    height: 52px;
+    background: #03D6F3;
+    border-radius: 39px;
+    border: 0;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+/* ================================================ media queries of main part Subscribe ================================================ */
+
+@media (max-width: 1100px){
+
+    .inputButtonSubscribe {
+        flex-direction: column;
+        width: 100%;
+    }
+    .inputSubscribe {
+        width: 90%;
+        padding: auto 10px;
+    }
+    .buttonSubscribe {
+        border-radius: 6px;
+        width: 90%;
+        
+    }
+}

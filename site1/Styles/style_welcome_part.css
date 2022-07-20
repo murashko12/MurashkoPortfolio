@@ -1,0 +1,278 @@
+* { padding: 0; margin: 0;}
+
+
+body {
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+}
+
+.welcomePart {
+    display: block;
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+
+.contentHeader {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 36px 10%;
+    align-items: center; 
+}
+
+.headerLogo {
+    max-width: 100%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.headerNavigation {
+    display: flex;
+    max-width: 100%;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.headerMenu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.contentMenuItem {
+    display: flex;
+    Align-items: center;
+    margin-right: 50px;
+}
+
+.contentMenuLink {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    Align-items: center;
+    cursor: pointer;
+}
+
+.headerMenu li :hover {
+    transition: all .3s;
+    color: #c3ff00;
+    border-bottom: 1px solid #c3ff00;
+}
+
+.contentMenuButton {
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 40px;
+    background: none;
+    cursor: pointer; 
+}
+
+.imgLogo {
+    max-width: 100%;
+    height: auto;
+}
+
+.mainTitle {
+    display: block;
+    width: 52%;
+    height: auto;
+    margin: auto;
+    margin-top: 128px;
+    justify-content: center;
+}
+
+.mainTitleTextBig {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 128px;
+    margin: 0;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    font-style: normal;
+    font-size: 55px;
+    color: white;
+}
+
+.mainTitleTextLittle {
+    margin-top: 27px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    color: #E5E5E5;
+}
+
+.blockButton {
+    display: flex;
+    width: 320px;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: space-between;
+    gap: 13px;
+}
+
+.blockButton1, .blockButton2 {
+    width: 183px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    border-radius: 40px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.blockButton1 {
+    background-color: white;
+    color: #112D57;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+.blockButton2 {
+    background: none;
+    border: 1px solid white;   
+    color: white;
+}
+
+.welcomeImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding-left: 0px;
+    justify-content: center;
+}
+
+/* ================================================ media queries of welcome part ================================================ */
+
+.contentMenuBurger {
+    display: none;
+}
+
+.popUp {
+    display: none;
+}
+
+.headButtons {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+@media (max-width: 1210px) {
+    .contentMenuItem {
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .contentMenuButton {
+        margin-right: 100px;
+    }
+
+    .contentMenuBurger {
+        display: block;
+        margin-right: 27px;
+    }
+
+    .headerMenu {
+        display: none;
+    }
+
+    .contentHeader {
+        padding: 36px 2%;
+    }
+
+    .mainTitle {
+        display: block;
+    }
+
+    .contentMenuButton {
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    .mainTitleTextBig {
+        font-weight: 500;
+        line-height: 57px;
+        text-align: center;
+        font-style: normal;
+        font-size: 45px;
+        color: white;
+    }
+
+    .blockButton {
+        flex-direction: column;
+        width: 30%;
+    }
+    .blockButton1, .blockButton2 {
+        width:100%;
+    }
+
+    .popUp {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: 100%;
+        display: flex;
+        transition: 0.3s;
+    }
+    .popUp.open {
+        left: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .mainTitle {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .blockButton {
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .mainTitle {
+        margin-top: 40px;
+    }
+    .welcomeImg {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 460px) {
+    .headButtons {
+        gap: 1%;
+    }
+}
+
+@media (max-width: 380px) {
+    .contentHeader {
+        padding: 36px 0%;
+    }
+}
