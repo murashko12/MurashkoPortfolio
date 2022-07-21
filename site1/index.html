@@ -33,7 +33,7 @@
                         <img class="imgLogo" src="Images/Logo.png" alt="logo">
                     </a>
 
-                    <ul class="headerMenu">
+                    <ul class="headerMenu" id="Menu">
                         <li class="contentMenuItem"><a href="#" class="contentMenuLink">Home</a></li>
                         <li class="contentMenuItem"><a href="#" class="contentMenuLink">Product</a></li>
                         <li class="contentMenuItem"><a href="#" class="contentMenuLink">About</a></li>
@@ -55,7 +55,17 @@
                 </nav>
             </header>
 
-            <div class="popUp" id="PopUp"></div>
+            <div class="popUp" id="PopUp">
+                <div class="crossLogoContent">
+                    <img class="crossLogo" id="Cross" src="Images/close.png" alt="cross-close">
+                </div>
+                 <div class="menuPopUp">
+                    <div class="contentMenuLinkInPopUp"><a href="#" class="MenuLinkInPopUp">Home</a></div>
+                    <div class="contentMenuLinkInPopUp"><a href="#" class="MenuLinkInPopUp">Product</a></div>
+                    <div class="contentMenuLinkInPopUp"><a href="#" class="MenuLinkInPopUp">About</a></div>
+                    <div class="contentMenuLinkInPopUp"><a href="#" class="MenuLinkInPopUp">Contact</a></div>
+                </div> 
+            </div>
 
             <div class="mainTitle">
                 <p class="mainTitleTextBig">Find the Best Solution in Seconds</p>
@@ -426,5 +436,6 @@
             </footer>
 
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
